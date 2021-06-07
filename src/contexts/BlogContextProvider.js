@@ -9,13 +9,9 @@
 // const ProductContextProvider = ({ children }) => {
 
 //     const [products, setProducts] = useState(null);
-//     const [featuredProducts, setFeaturedProducts] = useState([]);
-//     const [pendingProducts, setPendingProducts] = useState(null);
 //     const [product, setProduct] = useState(null);
 //     const [loading, setLoading] = useState(false);
 //     const [errorMsg, setErrorMsg] = useState('');
-//     const [totalElements, setTotalElements] = useState(0);
-//     const userContext = useContext(UserContext);
 
 //     async function getAllProducts({page, size, id, productName, form, companyName, featured}) {
 
