@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import PostContextProvider from "./contexts/PostContextProvider";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-export const contextProviders = [];
+export const contextProviders = [PostContextProvider];
 
 const getAppWithContextProviders = () => {
   let result = <App />;
